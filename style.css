@@ -107,7 +107,41 @@ form{
   border: 1px solid #ddd;
   cursor: pointer;
   box-shadow: 0 0.5px 3px rgba(0, 0, 0, 0.05);
+
 }
+
+.six-button{
+  position: relative;
+  left: 70px;
+  bottom: 150px;
+  width: 200px;
+  border: 0;
+  margin: 5vh 1vh 0;
+  padding: 12px 7px;
+  background: linear-gradient(to right, #3366ff, #66ffff);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.5s;
+}
+.six-button:hover{
+  align-items: center;
+  justify-content: center;
+  width: 250px
+}
+
+button img{
+  width: 20px;
+  display: none;
+}
+
+.six-button button:hover img{
+  display: block;
+}
+
+
 form p {
   font-size: 13px;
   text-align: center;
